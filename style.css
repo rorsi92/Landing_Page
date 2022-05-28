@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #249EBA 16.62%, #186375 85.61%);
+}
+
+.mainheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.mainheader-menu {
+    display: flex;
+    gap: 100px;
+}
+
+.mainheader-img {
+    max-width: 50%;
+    height: auto;
+}
+
+.mainheader-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #F2F2F2;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.intro {
+    border-top: 0.3px solid rgba(241, 241, 241, 0.2);
+    margin-bottom: 48px;
+}
+
+.intro-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.intro-main-text-img {
+        max-width: 50%;
+        height: 350px;
+}
+
+.intro-main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.intro-main-text-title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #FBFAFA;
+    font-size: 64px;
+}
+
+.intro-main-text-subtitle {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FBFAFA;
+}
+
+.intro-main-text-button {
+    background-color: #3FB9D6;
+    width: 143px;
+    height: 59px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #F2F2F2;
+}
+
+.intro-main-text-button:hover {
+    background-color: #336773;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    gap: 24px;
+    align-items: center;
+}
+
+.content-title{
+    border-top: 0.3px solid rgba(241, 241, 241, 0.2);
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    padding-top: 48px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 28px;
+    color: #FBFAFA;
+    margin-bottom: 16px;
+}
+
+.cards {
+    display:flex;
+    padding-top: 28px;
+    justify-content: space-around;
+    gap:180px;
+    margin-bottom: 8px;
+}
+
+.mainfooter {
+    padding: 32px;
+    border-top: 0.3px solid rgba(241, 241, 241, 0.2);
+}
+
+.mainfooter-img {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+.content-text {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #FBFAFA;
+    font-size: 22px;
+}
